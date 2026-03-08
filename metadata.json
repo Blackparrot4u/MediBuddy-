@@ -1,0 +1,8 @@
+{
+  "name": "MediBuddy",
+  "description": "An AI-powered emergency response system with One Tap SOS, Live Hospital Capacity, Crowd Blood Network, and AI Emergency Assistant.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
