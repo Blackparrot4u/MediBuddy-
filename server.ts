@@ -34,7 +34,7 @@ const TWILIO_FROM_NUMBER = process.env.TWILIO_FROM_NUMBER || '+1234567890';
 // Mock Data
 let hospitals = [
   { id: 'h1', name: 'PGIMER', address: 'Sector 12, Chandigarh', phone: '+91 172 2755577', bedsAvailable: 120, icuAvailable: 45, doctorsAvailable: 80, location: { lat: 30.7645, lng: 76.7756 }, has_ambulance: true },
-  { id: 'h2', name: 'GMSH Sector 16', address: 'Sector 16, Chandigarh', phone: '+91 172 2746000', bedsAvailable: 80, icuAvailable: 20, doctorsAvailable: 40, location: { lat: 30.7483, lng: 76.7820 }, has_ambulance: true },
+  { id: 'h2', name: 'GMSH Sector 16', address: 'Sector 16, Chandigarh', phone: '+91 172 2746000', bedsAvailable: 40, icuAvailable: 20, doctorsAvailable: 13, location: { lat: 30.7483, lng: 76.7820 }, has_ambulance: true },
   { id: 'h3', name: 'GMCH Sector 32', address: 'Sector 32, Chandigarh', phone: '+91 172 2601023', bedsAvailable: 90, icuAvailable: 25, doctorsAvailable: 50, location: { lat: 30.7046, lng: 76.7606 }, has_ambulance: true },
   { id: 'h4', name: 'Fortis Hospital', address: 'Sector 62, Phase 8, Mohali', phone: '+91 172 4692222', bedsAvailable: 45, icuAvailable: 12, doctorsAvailable: 25, location: { lat: 30.6900, lng: 76.7265 }, has_ambulance: true },
   { id: 'h5', name: 'Max Super Speciality Hospital', address: 'Phase 6, Sector 56, Mohali', phone: '+91 172 5212000', bedsAvailable: 30, icuAvailable: 8, doctorsAvailable: 18, location: { lat: 30.7228, lng: 76.7155 }, has_ambulance: true },
