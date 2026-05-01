@@ -4,9 +4,9 @@ import { randomUUID } from 'crypto';
 import { createClient } from '@supabase/supabase-js';
 import twilio from 'twilio';
 
-const app = express();
+const app = express(); 
 const PORT = 3000;
-
+ 
 app.use(express.json());
 
 // Initialize Supabase
